@@ -119,6 +119,9 @@ int main()
             c = degree_to_rad(a);
             cout << " tan of " << a << " = " << tan_a(c) << endl;
             break;
+       default:
+            cout << "Enter the correct operation number" << endl;
+            break;
         }
     }
     return 0;
